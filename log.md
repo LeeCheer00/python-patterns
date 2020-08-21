@@ -14,10 +14,10 @@
 Conclusion:
 1. mobilenetv2_10 get lower precison use inputsize 384. (0.95 && 0.98, mAP=0.965 mobilenetv2simUptrunc_0)
 2. 
-	1 onnx (cpu test) precision deviation, error.
-	2 cpu test speed is useless:
+	1. onnx (cpu test) precision deviation, error.
+	2. cpu test speed is useless:
 
-	158.32575857639313 ms,  6.316091639109336 fps,
+	==> 158.32575857639313 ms,  6.316091639109336 fps,
 	['carringbag', 'umbrella']
 	------[Class] Miss Rate, Average Precision and Average Groundtruth Scores------
 	[class carringbag] AP=0.16, MR (1 FPPI)=0.68
