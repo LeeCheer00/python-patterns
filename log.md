@@ -1,4 +1,4 @@
-*2020.08.22*:
+**2020.08.22**:
 
 128：
 	==> initializing Carring bag & Umbrella warp data (1 subsets).
