@@ -1,3 +1,29 @@
+
+*2020.08.22.384_2rsltn*:
+
+	==> initializing Carring bag & Umbrella warp data (1 subsets).
+	#images: 800 (carringbag 400) (umbrella 400)
+	loaded ../exp/ctdet/multidet_carryBagUm_384_2rsltn/model_best.pth, epoch 150
+	9.530677914619446 ms,  104.92433056268374 fps,
+	             precision    recall  f1-score   support
+
+ 	carringbag       0.96      0.85      0.90       400
+ 	  umbrella       0.88      0.97      0.92       400
+
+	avg / total       0.92      0.91      0.91       800
+
+
+
+	3.9398851990699764 ms,  253.8145020662159 fps,
+  	           precision    recall  f1-score   support
+
+	 carringbag       0.90      0.38      0.54       400
+ 	   umbrella       0.94      0.94      0.94       400
+
+	avg / total       0.92      0.66      0.74       800
+
+
+
 *2020.08.22.256*:
 
 	==> initializing Carring bag & Umbrella warp data (1 subsets).
