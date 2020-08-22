@@ -38,6 +38,7 @@
 	
 *2020.08.20*:
 
+	08.20: 384*128
 	==> initializing Carring bag & Umbrella warp data (1 subsets).
 	#images: 800 (carringbag 400) (umbrella 400)
 	loaded ../exp/ctdet/multidet_carryBagUm_384/model_best.pth, epoch 140
@@ -48,7 +49,20 @@
 	   umbrella       0.88      0.96      0.92       400
 	
 	avg / total       0.91      0.89      0.90       800
+	
+	
+	0822: 384*384
+	==> initializing Carring bag & Umbrella warp data (1 subsets).
+	#images: 800 (carringbag 400) (umbrella 400)
+	loaded ../exp/ctdet/multidet_carryBagUm_384/model_best.pth, epoch 140
+	13.671024143695831 ms,  73.14740940320361 fps,
+       	      precision    recall  f1-score   support
 
+ 	carringbag       0.95      0.83      0.89       400
+ 	  umbrella       0.88      0.96      0.92       400
+
+	avg / total       0.91      0.89      0.90       800
+	
 Conclusion:
 1. mobilenetv2_10 get lower precison use inputsize 384. (0.95 && 0.98, mAP=0.965 mobilenetv2simUptrunc_0)
 2. 
