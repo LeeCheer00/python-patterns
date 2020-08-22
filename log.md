@@ -50,6 +50,43 @@
 	
 	avg / total       0.91      0.89      0.90       800
 	
+	0822: 384*384
+	==> initializing Carring bag & Umbrella warp data (1 subsets).
+	#images: 800 (carringbag 400) (umbrella 400)
+	loaded ../exp/ctdet/multidet_carryBagUm_384/model_best.pth, epoch 140
+
+	9.899441167712212 ms,  101.01580312044045 fps,
+        	     precision    recall  f1-score   support
+
+ 	carringbag       0.95      0.83      0.89       400
+	   umbrella       0.88      0.96      0.92       400
+
+	avg / total       0.91      0.89      0.90       800
+	
+	0822:128*128
+	==> initializing Carring bag & Umbrella warp data (1 subsets).
+	#images: 800 (carringbag 400) (umbrella 400)
+	loaded ../exp/ctdet/multidet_carryBagUm_384/model_best.pth, epoch 140
+	3.846625655889511 ms,  259.96810957388453 fps,
+       	      precision    recall  f1-score   support
+	
+	 carringbag       0.90      0.35      0.50       400
+ 	  umbrella       0.92      0.87      0.89       400
+
+	avg / total       0.91      0.61      0.70       800
+	
+	0822:carrybagum:384, opt:128
+	==> initializing Carring bag & Umbrella warp data (1 subsets).
+	#images: 800 (carringbag 400) (umbrella 400)
+	loaded ../exp/ctdet/multidet_carryBagUm_384/model_best.pth, epoch 140
+	9.406557440757751 ms,  106.30881768361841 fps,
+  	           precision    recall  f1-score   support
+
+ 	carringbag       0.95      0.83      0.89       400
+	   umbrella       0.88      0.96      0.92       400
+
+	avg / total       0.91      0.89      0.90       800
+
 	
 	0822: 384*384
 	==> initializing Carring bag & Umbrella warp data (1 subsets).
