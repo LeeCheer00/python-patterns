@@ -1,5 +1,17 @@
 *2020.08.22*:
 
+128：
+	==> initializing Carring bag & Umbrella warp data (1 subsets).
+	#images: 800 (carringbag 400) (umbrella 400)
+	loaded ../exp/ctdet/multidet_carryBagUm/model_best.pth, epoch 205
+	3.4791402220726013 ms,  287.42733439018383 fps,
+        	     precision    recall  f1-score   support
+
+ 	carringbag       0.89      0.99      0.93       400
+ 	  umbrella       0.97      1.00      0.99       400
+
+avg / total       0.93      0.99      0.96       800
+384：
 	==> initializing Carring bag & Umbrella warp data (1 subsets).
 	#images: 800 (carringbag 400) (umbrella 400)
 	loaded ../exp/ctdet/multidet_carryBagUm_384/model_last.pth, epoch 400
