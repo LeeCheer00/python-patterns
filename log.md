@@ -12,6 +12,7 @@
 	avg / total       0.93      0.99      0.96       800
 	
 *2020.08.22.384*：
+
 	==> initializing Carring bag & Umbrella warp data (1 subsets).
 	#images: 800 (carringbag 400) (umbrella 400)
 	loaded ../exp/ctdet/multidet_carryBagUm_384/model_last.pth, epoch 400
