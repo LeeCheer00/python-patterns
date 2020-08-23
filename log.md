@@ -1,16 +1,65 @@
+*2020.08.23*:
 
+
+128:
+	loaded ../exp/ctdet/multidet_carryBagUm_128/model_best.pth, epoch 400
+	3.537414848804474 ms,  282.6923170568943 fps,
+		     precision    recall  f1-score   support
+
+	 carringbag       0.83      0.96      0.89       400
+	   umbrella       0.97      0.99      0.98       400
+
+	avg / total       0.90      0.98      0.94       800
+
+	loaded ../exp/ctdet/multidet_carryBagUm_128/model_150.pth, epoch 150
+	3.447323977947235 ms,  290.080075559207 fps,
+		     precision    recall  f1-score   support
+
+	 carringbag       0.83      0.96      0.89       400
+	   umbrella       0.97      0.99      0.98       400
+
+	avg / total       0.90      0.98      0.94       800
+
+	loaded ../exp/ctdet/multidet_carryBagUm_128/model_90.pth, epoch 90
+	3.6024941354990005 ms,  277.5854622901377 fps,
+		     precision    recall  f1-score   support
+
+	 carringbag       0.84      0.94      0.89       400
+	   umbrella       0.98      0.99      0.99       400
+
+	avg / total       0.91      0.97      0.94       800
+
+	loaded ../exp/ctdet/multidet_carryBagUm_128/model_last.pth, epoch 400
+	3.557896375656128 ms,  276.0222817216399	 fps,
+		     precision    recall  f1-score   support
+
+	 carringbag       0.83      0.96      0.89       400
+	   umbrella       0.97      0.99      0.98       400
+
+	avg / total       0.90      0.98      0.94       800
+	
+	loaded ../exp/ctdet/multidet_carryBagUm_128/model_220.pth, epoch 220
+	3.6228959262371063 ms,  238.2924182598074 fps,
+		     precision    recall  f1-score   support
+
+	 carringbag       0.83      0.96      0.89       400
+	   umbrella       0.97      0.99      0.98       400
+
+	avg / total       0.90      0.98      0.94       800
+	
 *2020.08.22.256_2ft*:
 
 	==> initializing Carring bag & Umbrella warp data (1 subsets).
 	#images: 800 (carringbag 400) (umbrella 400)
 	loaded ../exp/ctdet/multidet_carryBagUm_256_2ft/model_last.pth, epoch 400
-	5.943152904510498 ms,  168.26085683258455 fps,
+	5.406662821769714 ms,  184.9569749335097 fps,
          	    precision    recall  f1-score   support
 
  	carringbag       0.90      0.91      0.90       400
  	  umbrella       0.90      0.99      0.94       400
 
 	avg / total       0.90      0.95      0.92       800
+	
 *2020.08.22.384_2rsltn*:
 
 	==> initializing Carring bag & Umbrella warp data (1 subsets).
@@ -20,12 +69,12 @@
 	             precision    recall  f1-score   support
 
  	carringbag       0.96      0.85      0.90       400
- 	  umbrella       0.88      0.97      0.92       400
+ 	  umbrella       0.88      0.97      0.92       400:
 
 	avg / total       0.92      0.91      0.91       800
 
 
-
+	128*128:
 	3.9398851990699764 ms,  253.8145020662159 fps,
   	           precision    recall  f1-score   support
 
